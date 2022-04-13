@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<title>Akash Malvathkar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    
+</style>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <ul>
+    <li><a style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="w3-bar-item w3-button" href="/index.html">Home</a></li>
+    <li><a style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="w3-bar-item w3-button" href="/intro.html">My intro</a></li>
+    <li><a style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="w3-bar-item w3-button" href="/contact.html">Contact</a></li>
+    <li><a style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="w3-bar-item w3-button" >My Works</a></li>
+</ul>
+
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container" style="display: flex;justify-content: center;">
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">My Works</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="boxes">
+    <div class="box">
+        <a href="https://suspicious-shaw-e0f86b.netlify.app/" target="_blank">
+      <img src="./images/postman.png" alt="">
+      <h2>Postman</h2>
+      <p>This is a postman clone which can be used for get and post requests.</p>
+    </a>
+    </div>
+    <div class="box">
+        <a href="https://ashstar-blog.herokuapp.com/" target="_blank">
+      <img src="./images/Ashstar-blog.png" alt="">
+      <h2>Blog For All</h2>
+      <p>Here U can share the ideas and general knowledge.</p>
+    </a>
+    </div>
+  <div class="box">
+      <a href="https://akash-22022.github.io/Snaking/" target="_blank">
+      <img src="./images/Snaking.png" alt="">
+      <h2>Snakes Mania</h2>
+      <p>Short and sweet game to timepass ur skills.</p>
+    </a>
+    </div>
+    
+    
+    
+    <!-- <div class="box">
+      <h2>Postman</h2>
+      <p>This is a postman clone which can be used for get and post requests.</p>
+    </div>
+    <div class="box">
+      <h2>Postman</h2>
+      <p>This is a postman clone which can be used for get and post requests.</p>
+    </div>
+    <div class="box">
+      <h2>Postman</h2>
+      <p>This is a postman clone which can be used for get and post requests.</p>
+    </div> -->
+  </div>
+
+   
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     
+</body>
+</html>
